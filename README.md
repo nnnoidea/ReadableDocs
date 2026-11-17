@@ -1,4 +1,4 @@
-> 这份 README 由 GPT-6 Astra（high）使用 ReadableDocs 编写。[不使用 Skill 的对照版](README.without-skill.md)采用相同模型、目标和同一份 Skill 材料；写作方式上，只明确要求不使用该 Skill 写作。
+> 这份 README 由 GPT-6 Astra（high）使用 ReadableDocs 编写。[不使用 Skill 的对照版](README.without-skill.md)采用相同模型和同一份 Skill 材料，仅 prompt 中额外要求不使用该 Skill 写作。
 
 # ReadableDocs
 
