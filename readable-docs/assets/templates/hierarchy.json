@@ -1,0 +1,42 @@
+{
+  "type": "hierarchy",
+  "title": "对象怎样分层（示例）",
+  "subtitle": "替换为当前读者要理解的问题",
+  "caption": "示例内容；正式使用时填写来源和必要条件。",
+  "nodes": [
+    {
+      "id": "a",
+      "label": "整体",
+      "rank": 0
+    },
+    {
+      "id": "b",
+      "label": "分组甲",
+      "rank": 1
+    },
+    {
+      "id": "c",
+      "label": "分组乙",
+      "rank": 1
+    },
+    {
+      "id": "d",
+      "label": "子项",
+      "rank": 2
+    }
+  ],
+  "edges": [
+    {
+      "from": "a",
+      "to": "b"
+    },
+    {
+      "from": "a",
+      "to": "c"
+    },
+    {
+      "from": "b",
+      "to": "d"
+    }
+  ]
+}

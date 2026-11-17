@@ -1,0 +1,56 @@
+{
+  "type": "panels",
+  "title": "两个观察角度（示例）",
+  "subtitle": "替换为当前读者要理解的问题",
+  "caption": "示例内容；正式使用时填写来源和必要条件。",
+  "columns": 1,
+  "panels": [
+    {
+      "type": "stacked",
+      "title": "方案构成",
+      "series": [
+        "甲",
+        "乙"
+      ],
+      "rows": [
+        {
+          "label": "方案一",
+          "values": [
+            3,
+            1
+          ]
+        },
+        {
+          "label": "方案二",
+          "values": [
+            2,
+            2
+          ]
+        }
+      ],
+      "normalize": true
+    },
+    {
+      "type": "delta",
+      "title": "相对基线的变化",
+      "series": [
+        "指标"
+      ],
+      "rows": [
+        {
+          "label": "方案一",
+          "values": [
+            2
+          ]
+        },
+        {
+          "label": "方案二",
+          "values": [
+            -1
+          ]
+        }
+      ],
+      "unit": "分"
+    }
+  ]
+}

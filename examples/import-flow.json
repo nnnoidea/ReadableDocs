@@ -1,0 +1,15 @@
+{
+  "template": "decision",
+  "title": "文件上传后，接下来做什么？",
+  "subtitle": "检查文件格式和必填字段",
+  "nodes": [
+    {"id": "check", "label": "文件检查"},
+    {"id": "queue", "label": "进入导入队列", "kind": "terminal"},
+    {"id": "fix", "label": "查看错误清单\n修正后重新上传"}
+  ],
+  "edges": [
+    {"from": "check", "to": "queue", "label": "通过"},
+    {"from": "check", "to": "fix", "label": "未通过"}
+  ],
+  "caption": "支持 CSV / XLSX，单文件最大 20 MB。演示材料。"
+}

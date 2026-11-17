@@ -1,0 +1,38 @@
+{
+  "type": "flow",
+  "title": "条件如何决定下一步（示例）",
+  "subtitle": "替换为当前读者要理解的问题",
+  "caption": "示例内容；正式使用时填写来源和必要条件。",
+  "nodes": [
+    {
+      "id": "a",
+      "label": "检查条件",
+      "kind": "decision"
+    },
+    {
+      "id": "b",
+      "label": "执行下一步"
+    },
+    {
+      "id": "c",
+      "label": "补充材料"
+    }
+  ],
+  "edges": [
+    {
+      "from": "a",
+      "to": "b",
+      "label": "满足"
+    },
+    {
+      "from": "a",
+      "to": "c",
+      "label": "需补充"
+    },
+    {
+      "from": "c",
+      "to": "a",
+      "label": "重新检查"
+    }
+  ]
+}

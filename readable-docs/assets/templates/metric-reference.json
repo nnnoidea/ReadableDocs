@@ -1,0 +1,67 @@
+{
+  "type": "panels",
+  "title": "两项指标分别距离目标多远（示例）",
+  "subtitle": "替换为当前读者要理解的问题",
+  "caption": "示例内容；正式使用时填写来源和必要条件。",
+  "columns": 1,
+  "panels": [
+    {
+      "type": "trend",
+      "title": "指标一",
+      "x": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "series": [
+        {
+          "name": "当前方案",
+          "values": [
+            0.65,
+            0.7,
+            0.73,
+            0.75
+          ]
+        }
+      ],
+      "references": [
+        {
+          "label": "目标",
+          "value": 0.78
+        }
+      ],
+      "unit": "F1",
+      "x_label": "规模"
+    },
+    {
+      "type": "trend",
+      "title": "指标二",
+      "x": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "series": [
+        {
+          "name": "当前方案",
+          "values": [
+            0.73,
+            0.75,
+            0.78,
+            0.8
+          ]
+        }
+      ],
+      "references": [
+        {
+          "label": "目标",
+          "value": 0.82
+        }
+      ],
+      "unit": "F1",
+      "x_label": "规模"
+    }
+  ]
+}

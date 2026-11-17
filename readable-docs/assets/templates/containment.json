@@ -1,0 +1,33 @@
+{
+  "type": "containment",
+  "title": "整体由哪些部分组成（示例）",
+  "subtitle": "替换为当前读者要理解的问题",
+  "caption": "示例内容；正式使用时填写来源和必要条件。",
+  "root": {
+    "label": "服务边界",
+    "children": [
+      {
+        "label": "输入与输出",
+        "children": [
+          {
+            "label": "请求入口"
+          },
+          {
+            "label": "结果出口"
+          }
+        ]
+      },
+      {
+        "label": "处理能力",
+        "children": [
+          {
+            "label": "解析"
+          },
+          {
+            "label": "执行"
+          }
+        ]
+      }
+    ]
+  }
+}
