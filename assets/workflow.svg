@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="555" viewBox="0 0 1000 555" role="img">
+<title>先理清内容，再改成图文</title><desc>以你的目的、读者和限制作为两轮检查的依据</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#5a6e80"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<rect x="28" y="22" width="5" height="30" rx="2" fill="#187e75"/>
+<text x="48" y="46" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="27" font-weight="bold" fill="#203449">先理清内容，再改成图文</text>
+<text x="48" y="75" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="16" font-weight="normal" fill="#5a6e80">以你的目的、读者和限制作为两轮检查的依据</text>
+<g transform="translate(0,0)">
+<polyline points="210,115 210,210" fill="none" stroke="#d8e2ea" stroke-width="2"/>
+<circle cx="210" cy="115" r="6" fill="#28679b"/>
+<text x="185" y="121" text-anchor="end" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="16" font-weight="normal" fill="#5a6e80">开始</text>
+<text x="240" y="121" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="19" font-weight="bold" fill="#203449">明确要求</text>
+<text x="240" y="152" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="16" font-weight="normal" fill="#5a6e80">Agent 先明确目的、读者和限制。</text>
+<polyline points="210,210 210,305" fill="none" stroke="#d8e2ea" stroke-width="2"/>
+<circle cx="210" cy="210" r="6" fill="#187e75"/>
+<text x="185" y="216" text-anchor="end" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="16" font-weight="normal" fill="#5a6e80">文字轮</text>
+<text x="240" y="216" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="19" font-weight="bold" fill="#203449">整理正文 → 逐章检查 → 整体复查</text>
+<text x="240" y="247" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="16" font-weight="normal" fill="#5a6e80">通过后保存文字定稿。</text>
+<polyline points="210,305 210,400" fill="none" stroke="#d8e2ea" stroke-width="2"/>
+<circle cx="210" cy="305" r="6" fill="#96703a"/>
+<text x="185" y="311" text-anchor="end" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="16" font-weight="normal" fill="#5a6e80">图文轮</text>
+<text x="240" y="311" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="19" font-weight="bold" fill="#203449">画图、改配文 → 逐章检查 → 整体复查</text>
+<text x="240" y="342" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="16" font-weight="normal" fill="#5a6e80">检查前，保存各章改前改后稿及图源、渲染。</text>
+<circle cx="210" cy="400" r="6" fill="#8668a4"/>
+<text x="185" y="406" text-anchor="end" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="16" font-weight="normal" fill="#5a6e80">交付</text>
+<text x="240" y="406" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="19" font-weight="bold" fill="#203449">按要求输出正文与图示</text>
+<text x="240" y="437" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="16" font-weight="normal" fill="#5a6e80">回查实际呈现；保留草稿、检查记录、章节配对稿与图源。</text>
+<text x="32" y="530" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="15" font-weight="normal" fill="#5a6e80">模板与脚本可生成 SVG，仅需 Python 3 标准库。 · 按输入先后排列，节点间距不表示时长</text>
+</g></svg>
