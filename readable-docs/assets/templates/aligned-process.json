@@ -1,0 +1,80 @@
+{
+  "type": "aligned",
+  "connect_rows": true,
+  "title": "不同材料分别审核，沿用共同的处理步骤",
+  "subtitle": "列表示独立对象，行表示同一步骤",
+  "columns": [
+    {
+      "label": "文章",
+      "symbol": "object",
+      "shape": "circle"
+    },
+    {
+      "label": "视频",
+      "symbol": "object",
+      "shape": "square"
+    },
+    {
+      "label": "图集",
+      "symbol": "object",
+      "shape": "hexagon"
+    }
+  ],
+  "rows": [
+    {
+      "label": "1 读取材料",
+      "cells": [
+        {
+          "label": "读取正文",
+          "symbol": "document"
+        },
+        {
+          "label": "读取关键帧",
+          "symbol": "collection"
+        },
+        {
+          "label": "读取图片集合",
+          "symbol": "collection"
+        }
+      ]
+    },
+    {
+      "label": "2 核对依据",
+      "cells": [
+        {
+          "label": "核对引用来源",
+          "symbol": "search"
+        },
+        {
+          "label": "核对画面与说明",
+          "symbol": "search"
+        },
+        {
+          "label": "核对图片出处",
+          "symbol": "search"
+        }
+      ]
+    },
+    {
+      "label": "3 形成结果",
+      "cells": [
+        {
+          "label": "文章审核意见",
+          "symbol": "result",
+          "emphasis": true
+        },
+        {
+          "label": "视频审核意见",
+          "symbol": "result",
+          "emphasis": true
+        },
+        {
+          "label": "图集审核意见",
+          "symbol": "result",
+          "emphasis": true
+        }
+      ]
+    }
+  ],
+  "caption": "示例流程；每列独立执行，跨列不交换审核结果。"
+}

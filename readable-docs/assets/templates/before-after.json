@@ -1,0 +1,21 @@
+{
+  "type": "before-after",
+  "title": "两个阶段的耗时变化（示例）",
+  "before_label": "调整前",
+  "after_label": "调整后",
+  "unit": "分钟",
+  "rows": [
+    {
+      "label": "材料整理",
+      "before": 48,
+      "after": 31,
+      "emphasis": true
+    },
+    {
+      "label": "结果复核",
+      "before": 26,
+      "after": 22
+    }
+  ],
+  "caption": "示例数据；正式使用时替换为材料支持的内容与统计口径。"
+}

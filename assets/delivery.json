@@ -1,0 +1,29 @@
+{
+  "template": "containment",
+  "title": "源稿用于继续修改，阅读版用于直接阅读",
+  "root": {
+    "label": "默认交付内容",
+    "children": [
+      {
+        "label": "源稿：持续维护",
+        "emphasis": true,
+        "children": [
+          {
+            "label": "Markdown 正文"
+          },
+          {
+            "label": "独立图源＋生成图"
+          }
+        ]
+      },
+      {
+        "label": "额外阅读版",
+        "children": [
+          {
+            "label": "HTML"
+          }
+        ]
+      }
+    ]
+  }
+}

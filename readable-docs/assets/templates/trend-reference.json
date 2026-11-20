@@ -17,7 +17,8 @@
         0.71,
         0.73,
         0.75
-      ]
+      ],
+      "emphasis": true
     }
   ],
   "references": [
@@ -27,5 +28,13 @@
     }
   ],
   "x_label": "训练规模（示例单位）",
-  "unit": "最大 F1"
+  "unit": "最大 F1",
+  "label_indices": [
+    3
+  ],
+  "gap": {
+    "series": "方案表现",
+    "reference": "参考目标",
+    "unit": "F1"
+  }
 }

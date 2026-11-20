@@ -1,0 +1,72 @@
+{
+  "type": "detail",
+  "title": "发布链路保持简洁，展开查看校验如何完成",
+  "subtitle": "虚线关联同一对象的总览与局部说明",
+  "overview_label": "发布总览",
+  "overview": [
+    {
+      "id": "draft",
+      "label": "完成内容",
+      "symbol": "document"
+    },
+    {
+      "id": "validate",
+      "label": "校验内容与资源",
+      "symbol": "decision",
+      "emphasis": true
+    },
+    {
+      "id": "publish",
+      "label": "生成阅读版",
+      "symbol": "result"
+    }
+  ],
+  "edges": [
+    {
+      "from": "draft",
+      "to": "validate"
+    },
+    {
+      "from": "validate",
+      "to": "publish"
+    }
+  ],
+  "details": [
+    {
+      "target": "validate",
+      "figure": {
+        "template": "flow",
+        "title": "校验内容与资源",
+        "direction": "vertical",
+        "nodes": [
+          {
+            "id": "v1",
+            "label": "核对本地图片",
+            "symbol": "collection"
+          },
+          {
+            "id": "v2",
+            "label": "核对表格与代码",
+            "symbol": "document"
+          },
+          {
+            "id": "v3",
+            "label": "查看最终呈现",
+            "symbol": "search"
+          }
+        ],
+        "edges": [
+          {
+            "from": "v1",
+            "to": "v2"
+          },
+          {
+            "from": "v2",
+            "to": "v3"
+          }
+        ]
+      }
+    }
+  ],
+  "caption": "示例：局部可以采用已有流程、关系或数据图型。"
+}

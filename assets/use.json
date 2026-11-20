@@ -1,0 +1,30 @@
+{
+  "template": "flow",
+  "title": "你定目标，Agent 完成两轮写作与检查",
+  "nodes": [
+    {
+      "id": "a",
+      "label": "你：提供材料、\n读者和要求"
+    },
+    {
+      "id": "b",
+      "label": "Agent：先文字，后图文\n各经逐章与整体检查",
+      "emphasis": true
+    },
+    {
+      "id": "c",
+      "label": "你：读后继续\n追加要求"
+    }
+  ],
+  "edges": [
+    {
+      "from": "a",
+      "to": "b"
+    },
+    {
+      "from": "b",
+      "to": "c"
+    }
+  ],
+  "direction": "horizontal"
+}

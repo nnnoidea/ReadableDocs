@@ -1,0 +1,84 @@
+{
+  "type": "grouped",
+  "title": "请求经过校验后进入处理区，失败时回到执行步骤",
+  "subtitle": "示例：分组说明职责，连线说明实际流转",
+  "columns": 2,
+  "groups": [
+    {
+      "label": "接入与校验",
+      "nodes": [
+        {
+          "id": "request",
+          "label": "接收请求",
+          "symbol": "document"
+        },
+        {
+          "id": "check",
+          "label": "检查必要字段",
+          "symbol": "decision",
+          "detail": "缺少字段时返回补充说明"
+        },
+        {
+          "id": "queue",
+          "label": "进入待处理集合",
+          "symbol": "collection"
+        }
+      ]
+    },
+    {
+      "label": "执行与保存",
+      "nodes": [
+        {
+          "id": "load",
+          "label": "读取任务",
+          "symbol": "store"
+        },
+        {
+          "id": "run",
+          "label": "执行处理",
+          "symbol": "process",
+          "emphasis": true
+        },
+        {
+          "id": "result",
+          "label": "检查处理结果",
+          "symbol": "result"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "request",
+      "to": "check"
+    },
+    {
+      "from": "check",
+      "to": "queue",
+      "label": "字段齐全"
+    },
+    {
+      "from": "queue",
+      "to": "load",
+      "label": "提交任务"
+    },
+    {
+      "from": "load",
+      "to": "run"
+    },
+    {
+      "from": "run",
+      "to": "result"
+    },
+    {
+      "from": "result",
+      "to": "run",
+      "feedback": true,
+      "from_side": "right",
+      "to_side": "right",
+      "label": "可重试失败",
+      "dash": true
+    }
+  ],
+  "caption": "示例流程；分组面积和集合图标均不表示数量。"
+}

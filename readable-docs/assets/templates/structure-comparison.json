@@ -1,0 +1,60 @@
+{
+  "type": "aligned",
+  "connect_rows": false,
+  "title": "集中保存与按项目保存，改变的是组织方式和查找入口",
+  "subtitle": "相同行比较同一方面；对应关系不表示先后顺序",
+  "columns": [
+    {
+      "label": "集中保存",
+      "symbol": "store"
+    },
+    {
+      "label": "按项目保存",
+      "symbol": "collection"
+    }
+  ],
+  "rows": [
+    {
+      "label": "材料归属",
+      "cells": [
+        {
+          "label": "共用一个材料库",
+          "symbol": "store",
+          "detail": "以标签区分不同项目"
+        },
+        {
+          "label": "每个项目一个材料集合",
+          "symbol": "collection",
+          "detail": "项目内保留正文、图源与附件"
+        }
+      ]
+    },
+    {
+      "label": "查找入口",
+      "cells": [
+        {
+          "label": "从全局搜索开始",
+          "symbol": "search"
+        },
+        {
+          "label": "先进入项目，再找材料",
+          "symbol": "search"
+        }
+      ]
+    },
+    {
+      "label": "维护方式",
+      "cells": [
+        {
+          "label": "集中调整分类",
+          "symbol": "process"
+        },
+        {
+          "label": "项目内维护，统一命名",
+          "symbol": "process"
+        }
+      ]
+    }
+  ],
+  "caption": "示例对照；两列平等呈现，未给出优劣结论。"
+}

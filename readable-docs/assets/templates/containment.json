@@ -15,7 +15,8 @@
           {
             "label": "结果出口"
           }
-        ]
+        ],
+        "emphasis": true
       },
       {
         "label": "处理能力",

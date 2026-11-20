@@ -1,0 +1,50 @@
+{
+  "template": "structure-comparison",
+  "title": "把阅读困难变成明确的改写要求",
+  "columns": [
+    {
+      "label": "读者遇到的困难"
+    },
+    {
+      "label": "ReadableDocs 的改写方向"
+    }
+  ],
+  "rows": [
+    {
+      "label": "概念",
+      "cells": [
+        {
+          "label": "术语密集"
+        },
+        {
+          "label": "首次使用时解释",
+          "emphasis": true
+        }
+      ]
+    },
+    {
+      "label": "重点",
+      "cells": [
+        {
+          "label": "读完才找到重点"
+        },
+        {
+          "label": "先给主干，再展开细节",
+          "emphasis": true
+        }
+      ]
+    },
+    {
+      "label": "关系",
+      "cells": [
+        {
+          "label": "长段落描述结构和过程"
+        },
+        {
+          "label": "用图呈现，配文辅助",
+          "emphasis": true
+        }
+      ]
+    }
+  ]
+}

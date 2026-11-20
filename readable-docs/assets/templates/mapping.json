@@ -6,7 +6,8 @@
   "left": [
     {
       "id": "a",
-      "label": "输入甲"
+      "label": "输入甲",
+      "emphasis": true
     },
     {
       "id": "b",
@@ -27,7 +28,8 @@
     {
       "from": "a",
       "to": "x",
-      "label": "转换"
+      "label": "转换",
+      "emphasis": true
     },
     {
       "from": "b",

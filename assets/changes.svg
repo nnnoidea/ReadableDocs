@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="894" height="602" viewBox="0 0 894 602" role="img">
+<title>把阅读困难变成明确的改写要求</title><desc></desc>
+<defs><marker id="arrow-5a6e80" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#5a6e80"/></marker><marker id="arrow-187e75" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#187e75"/></marker><marker id="arrow-28679b" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#28679b"/></marker><marker id="arrow-96703a" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#96703a"/></marker><marker id="arrow-8668a4" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#8668a4"/></marker><marker id="arrow-b75654" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#b75654"/></marker><marker id="arrow-667b90" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#667b90"/></marker><marker id="arrow-d8e2ea" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#d8e2ea"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<rect x="28" y="22" width="5" height="30" rx="2" fill="#187e75"/>
+<text x="48" y="46" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="27" font-weight="bold" fill="#203449">把阅读困难变成明确的改写要求</text>
+<g transform="translate(0,0)">
+<rect x="228" y="110" width="284" height="460" rx="18" fill="#f1f6fa" stroke="none"/>
+<rect x="240" y="124" width="260" height="76" rx="12" fill="white" stroke="#d8e2ea"/>
+<text x="256" y="158" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="17" font-weight="bold" fill="#203449">读者遇到的困难</text>
+<rect x="532" y="110" width="284" height="460" rx="18" fill="#f1f6fa" stroke="none"/>
+<rect x="544" y="124" width="260" height="76" rx="12" fill="white" stroke="#d8e2ea"/>
+<text x="560" y="158" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="17" font-weight="bold" fill="#203449">ReadableDocs 的改写方向</text>
+<text x="48" y="268" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="17" font-weight="bold" fill="#203449">概念</text>
+<text x="48" y="372" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="17" font-weight="bold" fill="#203449">重点</text>
+<text x="48" y="476" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="17" font-weight="bold" fill="#203449">关系</text>
+<rect x="240" y="238" width="260" height="76" rx="12" fill="white" stroke="#d8e2ea"/>
+<text x="256" y="272" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="17" font-weight="bold" fill="#203449">术语密集</text>
+<rect x="544" y="238" width="260" height="76" rx="12" fill="#e7f3f0" stroke="#187e75"/>
+<text x="560" y="272" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="17" font-weight="bold" fill="#203449">首次使用时解释</text>
+<rect x="240" y="342" width="260" height="76" rx="12" fill="white" stroke="#d8e2ea"/>
+<text x="256" y="376" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="17" font-weight="bold" fill="#203449">读完才找到重点</text>
+<rect x="544" y="342" width="260" height="76" rx="12" fill="#e7f3f0" stroke="#187e75"/>
+<text x="560" y="376" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="17" font-weight="bold" fill="#203449">先给主干，再展开细节</text>
+<rect x="240" y="446" width="260" height="76" rx="12" fill="white" stroke="#d8e2ea"/>
+<text x="256" y="480" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="17" font-weight="bold" fill="#203449">长段落描述结构和过程</text>
+<rect x="544" y="446" width="260" height="76" rx="12" fill="#e7f3f0" stroke="#187e75"/>
+<text x="560" y="480" text-anchor="start" font-family="PingFang SC,Noto Sans CJK SC,Microsoft YaHei,Arial,sans-serif" font-size="17" font-weight="bold" fill="#203449">用图呈现，配文辅助</text>
+</g></svg>

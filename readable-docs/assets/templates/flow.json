@@ -10,7 +10,8 @@
     },
     {
       "id": "b",
-      "label": "处理内容"
+      "label": "处理内容",
+      "emphasis": true
     },
     {
       "id": "c",
@@ -21,11 +22,17 @@
   "edges": [
     {
       "from": "a",
-      "to": "b"
+      "to": "b",
+      "emphasis": true
     },
     {
       "from": "b",
       "to": "c"
     }
+  ],
+  "direction": "auto",
+  "focus_path": [
+    "a",
+    "b"
   ]
 }
